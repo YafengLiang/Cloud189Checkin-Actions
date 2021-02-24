@@ -127,7 +127,6 @@ def login(username, password):
     r = s.get(redirect_url)
     return s
     
-
 if __name__ == "__main__":
     main()
 
